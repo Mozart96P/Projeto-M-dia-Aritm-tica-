@@ -1,0 +1,1 @@
+Esse é um projeto simples para resolver um problema ainda mais simples. Fazer o cálculo da média aritmética.

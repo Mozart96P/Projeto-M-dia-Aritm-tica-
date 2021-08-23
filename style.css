@@ -2,3 +2,43 @@
                 margin: 0;
                 padding: 0;
 }
+body{
+                background-image: url(Imagens/fundo1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+}
+article{
+                width: 50%;
+                display: inline-block;
+                
+                
+}
+h1{
+                font-size: 3em;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                text-shadow: 2px 2px 2px black;
+                padding-left: 10%;
+                padding-top: 30px;
+}
+h2{
+                margin-left: 10%;
+                margin-top: 80px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+                text-shadow: 2px 2px 2px black;
+}
+.texto{
+                width: 600px;
+                text-align: justify;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.3em;
+                margin-top: 15px;
+                margin-left: 10%;
+}
+#calculo{
+                
+                display: inline-block;
+                width: 49%;
+                
+}

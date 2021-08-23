@@ -1,1 +1,1 @@
-Esse é um projeto simples para resolver um problema ainda mais simples. Fazer o cálculo da média aritmética.
+Esse é um projeto simples para resolver um problema ainda mais simples. Fazer o cálculo da média aritmética. Basicamente é uma introdução so que é a média aritmética e de como obtê-la. Seguido de um pequeno exemplo real.

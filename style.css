@@ -37,8 +37,8 @@ h2{
                 margin-left: 10%;
 }
 #calculo{
-                
+                position: fixed;
                 display: inline-block;
                 width: 49%;
-                
+                height: 100%;
 }

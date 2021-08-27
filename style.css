@@ -58,3 +58,11 @@ h2{
                 padding: 5px;
                 border-radius: 5px;
 }
+button{
+                display: block;
+                margin-left: 45%;
+                margin-top: 100px;
+                width: 70px;
+                padding: 5px;
+                border-radius: 5px;
+}

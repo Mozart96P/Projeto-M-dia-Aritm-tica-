@@ -15,7 +15,9 @@ function calcular(){
                 var bimestretres = inputnota3.value;
                 var bimestrequatro = inputnota4.value;
 
-                var somanotas = bimestreum + bimestredois + bimestretres +bimestrequatro / 4;
+                var somanotas = (bimestreum + bimestredois + bimestretres +bimestrequatro) / 4;
 
                 console.log(somanotas);
+
+                resultado.innerHTML`<p> Sua Média é , ${somanotas} .</p>`
 }

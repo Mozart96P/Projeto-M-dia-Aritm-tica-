@@ -1,49 +1,53 @@
-*{
-                margin: 0;
-                padding: 0;
-}
 body{
                 background-image: url(Imagens/fundo1.jpg);
                 background-repeat: no-repeat;
                 background-size: cover;
 }
+main{
+                max-width: 1320px;
+                margin: auto;
+}
 article{
-                width: 50%;
-                display: inline-block;
                 
+                margin-left: 20px; 
+                max-width: 600px;
+                min-width: 350px;
+                display: inline-block;
                 
 }
 h1{
+                
+                text-align: center;
                 font-size: 3em;
                 font-family: Arial, Helvetica, sans-serif;
                 color: white;
                 text-shadow: 2px 2px 2px black;
-                padding-left: 10%;
-                padding-top: 30px;
 }
 h2{
-                margin-left: 10%;
+                margin-left: 20px;
                 margin-top: 80px;
                 font-family: Arial, Helvetica, sans-serif;
                 color: white;
                 text-shadow: 2px 2px 2px black;
 }
 .texto{
-                width: 600px;
-                text-align: justify;
+                margin-top: 30px;
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: 1.3em;
-                margin-top: 15px;
-                margin-left: 10%;
+                text-align: justify;
+
 }
+
 #calculo{
-                position: fixed;
-                display: inline-block;
-                width: 49%;
-                height: 100%;
+
+              width: 500px; 
+              min-width: 350px;
+              display: inline-block;
+              top: -100px;
+              left: 120px;
+              position: relative;                   
 }
 #calculo >p{
-                margin-top: 200px;
                 text-align: center;
                 font-weight: bold;
                 font-family: Arial, Helvetica, sans-serif;

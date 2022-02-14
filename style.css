@@ -1,80 +1,86 @@
+
+*{
+                margin: 0;
+                padding: 0;
+}
 body{
-                background-image: url(Imagens/fundo1.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
+                background-color: rgb(208, 236, 236);
 }
-main{
-                max-width: 1320px;
+#container{
+                max-width: 800px;
                 margin: auto;
+                background-color: white;
 }
-article{
-                
-                margin-left: 20px; 
-                max-width: 600px;
-                min-width: 350px;
-                display: inline-block;
-                
-}
-h1{
-                
+h1{             
+                padding-top:15px ;
                 text-align: center;
                 font-size: 3em;
-                font-family: Arial, Helvetica, sans-serif;
-                color: white;
-                text-shadow: 2px 2px 2px black;
+                font-weight: 300;
+                font-family: 'Staatliches', cursive;           
 }
 h2{
-                margin-left: 20px;
-                margin-top: 80px;
-                font-family: Arial, Helvetica, sans-serif;
-                color: white;
-                text-shadow: 2px 2px 2px black;
+                
+                padding-left: 20px;
+                font-family: 'Montserrat', sans-serif;
+                
 }
 .texto{
+                max-width: 760px;
+                margin: auto;
                 margin-top: 30px;
-                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-family: 'Montserrat', sans-serif;
                 font-size: 1.3em;
-                text-align: justify;
+                line-height: 30px;
 
 }
-
-#calculo{
-
-              width: 500px; 
-              min-width: 350px;
-              display: inline-block;
-              top: -100px;
-              left: 120px;
-              position: relative;                   
+#imagem-formula{
+                display: block;
+                margin:auto;
 }
-#calculo >p{
-                text-align: center;
-                font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 1.1em; 
-}
+
+
 #notasbimestrais{
-                text-align: center;
-                margin-top: 100px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                margin-top: 30px;
+}
+.titulo-notas{
+                margin-left: 10px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
 }
 .notas{
                 width: 70px;
                 padding: 5px;
                 border-radius: 5px;
+                font-family: 'Montserrat', sans-serif;
 }
 button{
                 display: block;
-                margin-left: 45%;
-                margin-top: 100px;
-                width: 70px;
+                margin: auto;
+                margin-top: 60px;
+                width: 100px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: bold;
                 padding: 5px;
-                border-radius: 5px;
+                border-style: none;
+                border-radius: 10px;
+                background-color:rgb(88, 179, 231) ;
+}
+button:hover{
+                box-shadow: 2px 2px 5px rgb(88, 179, 231) ;
+                background-color: rgb(113, 187, 230);
 }
 
 #resultado{
                 margin-top: 40px;
+                padding-bottom: 30px;
                 text-align: center;
                 font-weight: bold;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: 'Montserrat', sans-serif;
                 font-size: 2em; 
 }
